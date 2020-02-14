@@ -14,7 +14,7 @@ Conference Instructor-Led Training at the GPU Technology Conference (GTC), takin
 
 </br>
 
-## In order to run the experiments run:
+## Run Experiments using:
 
 * `content/word_embeddings_sentiment_clustering.ipynb`
 * `content/bert_sentiment_clustering.ipynb`
