@@ -3,7 +3,8 @@
 </br>
 
 
-GTC GPu Technology Conference Instructor-Led Training at the GPU Technology Conference (GTC), taking place March 22-26, 2020 at the San Jose McEnery Convention Center in San Jose, California.
+## GTC GPu Technology 
+Conference Instructor-Led Training at the GPU Technology Conference (GTC), taking place March 22-26, 2020 at the San Jose McEnery Convention Center in San Jose, California.
 
 </br>
 
@@ -12,6 +13,11 @@ GTC GPu Technology Conference Instructor-Led Training at the GPU Technology Conf
 * Length:  1 Hour 45 Minutes
 
 </br>
+
+## In order to run the experiments run:
+
+* `content/word_embeddings_sentiment_clustering.ipynb`
+* `content/bert_sentiment_clustering.ipynb`
 
 The main purpose of this tutorial is to target a particular Natural Language Processing (NLP) problem, in this case Sentiment Analysis, and use GPUs for great speedup.
 
@@ -23,7 +29,7 @@ The main purpose of this tutorial is to target a particular Natural Language Pro
 * [IMDB moview reviews sentiment dataset](http://ai.stanford.edu/%7Eamaas/data/sentiment/): This is a dataset for binary sentiment classification containing a set of **25,000** highly polar movie reviews for training, and **25,000** for testing. For this tutorial we will combine the train and test data for a total of **50,000 movies reviews** text data and their negative/positive labels.
 
 Notebook used for data prep:
-'data/data_prep.ipynb'
+`data/data_prep.ipynb`
 
 </br>
 
