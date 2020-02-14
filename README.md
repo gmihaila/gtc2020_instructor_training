@@ -1,16 +1,21 @@
-# GTC GPu Technology Conference
+# GPUs in Natural Language Processing
 
 </br>
 
 
-Instructor-Led Training at the GPU Technology Conference (GTC), taking place March 22-26, 2020 at the San Jose McEnery Convention Center in San Jose, California.
+GTC GPu Technology Conference Instructor-Led Training at the GPU Technology Conference (GTC), taking place March 22-26, 2020 at the San Jose McEnery Convention Center in San Jose, California.
+
+</br>
 
 * Title: T22128: GPUs in Natural Language Processing
 * Session Type: Instructor-Led Training
 * Length:  1 Hour 45 Minutes
 
+</br>
+
 The main purpose of this tutorial is to target a particular Natural Language Processing (NLP) problem, in this case Sentiment Analysis, and use GPUs for great speedup.
 
+</br>
 
 ### Dataset used:
 `data/imdb_reviews_all_labeled.csv`
@@ -20,6 +25,7 @@ The main purpose of this tutorial is to target a particular Natural Language Pro
 Notebook used for data prep:
 'data/data_prep.ipynb'
 
+</br>
 
 ## NLP - Fine-grained Sentiment Analysis
 
@@ -40,7 +46,7 @@ When performing information extraction with comparative expressions, for example
 
 [source](https://towardsdatascience.com/fine-grained-sentiment-analysis-in-python-part-1-2697bb111ed4)
 
-
+</br>
 
 # Main notebooks :
 
@@ -62,6 +68,8 @@ When performing information extraction with comparative expressions, for example
  * Try to find a third sentiment using k=3. Observe the overlab between predicted labels and true labels. Visualize the clusters.
  * Repeat previous experiments using different k and observe predicitons overlp with true labels. Visualize the clusters.
  * Visualize samples of text that are predicted with various sentiments.
+
+</br>
 
 ## BERT Sentiment Clustering
 
