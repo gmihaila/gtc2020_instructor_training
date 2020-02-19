@@ -18,6 +18,8 @@ Conference Instructor-Led Training at the GPU Technology Conference (GTC), takin
 
 ## Run Experiments using:
 
+**Note** Make sure to use Rapids V0.10 and GPU T4 or V100
+
 * `content/word_embeddings_sentiment_clustering.ipynb`
 * `content/bert_sentiment_clustering.ipynb`
 
