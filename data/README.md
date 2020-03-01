@@ -4,6 +4,8 @@ All files generated here are using the **data/data_prep.ipynb** Colab Notebook:
   * Prep data from `tensorflow_datasets` of **imdb_reviews** dataset.
   * Prep data from [The Signal Media One-Million News Articles Dataset](https://research.signal-ai.com/newsir16/signal-dataset.html).
 
+  <a target="_blank"   href="https://colab.research.google.com/github/gmihaila/gtc2020_instructor_training/blob/master/data/data_prep.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" /> Run data_prep.ipynb in Google Colab</a>
+
 
 ## Files:
 
