@@ -3,7 +3,7 @@
 </br>
 
 
-[My Small Intro](https://gmihaila.github.io/projects/gtc2020.html)
+[Intro Slides](https://gmihaila.github.io/projects/gtc2020.html)
 
 ## GTC GPu Technology 
 Conference Instructor-Led Training at the GPU Technology Conference (GTC), taking place March 22-26, 2020 at the San Jose McEnery Convention Center in San Jose, California.
