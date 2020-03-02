@@ -24,3 +24,27 @@ All files generated here are using the **data/data_prep.ipynb** Colab Notebook:
     |---------------------------------------------------	|-----------	|
     | This was an absolutely terrible movie. Don't b... 	| 0         	|
     | I have been known to fall asleep during films,... 	| 0         	|
+    
+  * **data/movies_reviews_embeddings_part1.npy** and **data/movies_reviews_embeddings_part2.npy** contain BERT Embeddings of all `50,000` movie revies. They are saved in numpy format binary. 
+  The are the output of running `SentenceTransformer` on all the text using `bert-base-nli-mean-tokens` pretrained model:
+  ```python
+  name_of_model='bert-base-nli-mean-tokens'
+  batch_size=1000
+  use_device="cuda"
+
+  embed_model = SentenceTransformer(model_name_or_path=name_of_model,
+                                      device=torch.device(use_device))
+
+  movies_reviews_embeddings = embed_model.encode(sentences=reviews_texts, 
+                                                batch_size=batch_size, 
+                                                show_progress_bar=True)
+
+  movies_reviews_embeddings = np.array(movies_reviews_embeddings)
+  ```
+  In order to load them:
+  ```python
+  movies_reviews_embeddings_part1 = np.load('movies_reviews_embeddings_part1.npy')
+  movies_reviews_embeddings_part2 = np.load('movies_reviews_embeddings_part2.npy')
+
+  movies_reviews_embeddings = np.concatenate((movies_reviews_embeddings_part1, movies_reviews_embeddings_part2))
+  ```
