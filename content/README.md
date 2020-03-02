@@ -1,10 +1,10 @@
-# Content
+# Find new sentiments in text data
 
-## content/google_colab/
-* Contains notebooks that work in Google Colab
+## word_embeddings_sentiment_clustering.ipynb
+* First experiment to run.
+* Uses custom word embeddings.
 
-## content/
-* this
-
-## content/
-* this
+## bert_sentiment_clustering.ipynb
+* Second experiment to run.
+* Repeats similar experiments but using BERT contextual embeddings.
+* Shows the difference between using different types of word embeddings.
