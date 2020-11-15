@@ -144,7 +144,7 @@ sortedcontainers==2.1.0
 statsmodels==0.10.1
 tblib==1.4.0
 tensorboard==2.1.0
-tensorflow==2.1.0
+tensorflow==2.3.1
 tensorflow-datasets==2.1.0
 tensorflow-estimator==2.1.0
 tensorflow-metadata==0.21.1
